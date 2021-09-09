@@ -1,40 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rokkitt&display=swap');
 
 .clear {
 	clear: both;
 }
+/* color: #f3f3f3;branco */
+/* color: #181818;Preto */
+/* color: #cf8a05; laranja */
+/* color: #dedede;cinza claro */
 body{
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	width: 820px;
-	font-family: Arial, sans-serif ;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 	margin-left: auto;
 	font-size: 10pt;
 	margin-right: auto;
-	color: #444444;
+	color: #181818;
 	line-height: 140%;
-	/* color: #f3f3f3;branco */
-	/* color: #181818;Preto */
-	/* color: #cf8a05; laranja */
-	/* color: #dedede;cinza claro */
+	background-color: #f3f3f3;
 }
-body h1, h2, h3{
+h2, h1{
 	font-family: 'Rokkitt', serif;
+	color: #444444;
 }
+
 
 .sectionTitle h1 {
 	color: #cf8a05;
 	font-style: italic;
 	font-size: 15pt;
 	font-weight: 400;
+	
 }
 .sectionContent h2{
 	font-size: 15pt;
 	font-weight: 400;
-	color: #181818;
 	margin-bottom: 0%;
 }
 .sectionContent p{
 	margin-top: 0%;
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+
 }
 
 main {
@@ -45,6 +51,7 @@ main {
 
 .mainsec{
 	border-bottom: 1px solid #dedede;
+	
 }
 .subDetails{
 	height: 3px;
@@ -58,6 +65,11 @@ main {
 	margin-right: auto;
 	border-bottom:2px solid #cf8a05;
 	padding-top: 70px;
+	
+	
+}
+.mainDetails li{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 
 #headshot {
@@ -83,13 +95,15 @@ main {
 }
 #name h1{
 	margin-bottom: 0%;
-	color:#181818;
 }
 #name h2{
 	margin-top: 0%;
-	color:#181818;
 	font-weight: 500;
 }
+/* color: #f3f3f3;branco */
+/* color: #181818;Preto */
+/* color: #cf8a05; laranja */
+/* color: #dedede;cinza claro */
 #contactDetails {
 	float: right;
 	margin-top: 5px;
@@ -103,7 +117,7 @@ main {
 	list-style-type: none;
 }
 #contactDetails a{
-	color: #181818;
+	color: #444444;
 	text-decoration: none;
 }
 
@@ -115,6 +129,9 @@ main {
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.sectionContent article p{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
 }
 .keySkills {
 	padding: 0%;
@@ -128,6 +145,8 @@ main {
 }
 .keySkills li{
  list-style-type: none;
+ font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+
 }
 #lastul {
 	display: inline-block;
@@ -136,3 +155,7 @@ main {
 	margin-bottom: auto;
 
 }
+/* color: #f3f3f3;branco */
+/* color: #181818;Preto */
+/* color: #cf8a05; laranja */
+/* color: #dedede;cinza claro */
